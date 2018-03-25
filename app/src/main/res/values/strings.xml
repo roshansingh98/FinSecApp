@@ -6,4 +6,135 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="action_logout">Log Out</string>
+    <string name="title_activity_mutual_fund_faq">MUTUAL FUND FAQ</string>
+    <string name="large_text">
+        "What is a Mutual Fund?\n\n"
+
+        "A Mutual Fund is a trust that pools the savings of a number of investors who share a common financial goal."
+        "It is essentially a diversified portfolio of financial instruments - these could be equities, debentures / bonds or money market instruments. The corpus of the fund is then deployed in investment alternatives that help to meet predefined investment objectives. The income earned through these investments and the capital appreciation realised are shared by its unit holders in proportion to the number of units owned by them. Thus a Mutual Fund is a suitable investment for the common man as it offers an opportunity to invest in a diversified, professionally managed basket of securities at a relatively low cost."
+        "What are the benefits of investing in a mutual fund?
+
+The benefits of investing in mutual funds are as follows -
+
+Access to professional money managers - Your money is managed by experienced fund managers using advanced scientific and mathematical techniques.
+
+Diversification -Mutual funds aim to reduce the volatility of returns through diversification by investing in a number of companies across a broad section of industries and sectors. It prevents an investor from putting "all eggs in one basket". This inherently minimizes risk. Thus with a small investible surplus an investor can achieve diversification that would have otherwise not been possible.
+
+Liquidity - Open-ended mutual funds are priced daily and are always willing to buy back units from investors. This mean that investors can sell their holdings in mutual fund investments anytime without worrying about finding a buyer at the right price. In the case of other investment avenues such as stocks and bonds, buyers are not necessarily available and therefore these investment avenues are less liquid compared to open-ended schemes of mutual funds.
+
+Tax Efficiency*
+
+Equity Funds
+
+Currently, dividends are tax-free in the hands of the investor. There is no distribution tax payable by a Mutual Fund on dividends distributed. There is no tax deduction at source on dividends as well. Investments for over 12 months qualify for long-term capital gains, which are currently, exempt from tax. Moreover for investors there is no TDS on redemption of the units in case they are “resident” under the Indian Income Tax Act, 1961(“the Act”). Securities Transaction Tax is applicable on redemption of equity fund investments.
+
+Debt Funds
+
+Currently, dividends are tax-free in the hands of the investor. However, there is distribution tax together with surcharge and education cess, as may be applicable, payable by the Mutual Fund on dividends distributed. There is no tax deduction at source on dividends as well. Investments for over 12 months qualify for long-term capital gains. For investors there is no TDS on redemption of the units in case they are “resident” under the Indian Income Tax Act, 1961(“the Act”).
+
+*This information is general in nature and investors should seek appropriate legal advice in their own case.
+
+Low transaction costs - Since mutual funds are a pool of money of many investors, the amount of investment made in securities is large. This therefore results in paying lower brokerage due to economies of scale.
+
+Transparency - Prices of open ended mutual funds are declared daily. Regular updates on the value of your investment are available. The portfolio is also disclosed regularly with the fund manager's investment strategy and outlook.
+
+Well-regulated industry - All the mutual funds are registered with SEBI and they function under strict regulations designed to protect the interests of investors.
+
+Convenience of small investments: Under normal circumstances, an individual investor would not be able to diversify his investments (and thus minimize risk) across a wide array of securities due to the small size of his investments and inherently higher transaction costs. A mutual fund on the other hand allows even individual investors to hold a diversified array of securities due to the fact that it invests in a portfolio of stocks. A mutual fund therefore permits risk diversification without an investor having to invest large amounts of money.
+
+Types of Mutual Funds
+
+Mutual fund schemes may be classified on the basis of their structure and their investment objective
+
+By Structure
+
+Open-ended Funds
+
+An Open-ended Fund is one that is available for subscription all through the year. These do not have a fixed maturity. Investors can conveniently buy and sell units at Net Asset Value (NAV) related prices.
+
+Close-ended Funds
+
+A Close-ended Fund has a stipulated maturity period, which generally ranges from 3 to 15 years. The fund is open for subscription only during a specified period. Investors can invest in the scheme at the time of the initial public issue and thereafter they can buy or sell the units of the scheme on the Stock Exchanges, if they are listed. The market price at the stock exchange could vary from the scheme's NAV on account of demand and supply situation, unit holders' expectations and other market factors.
+
+By Investment Objective
+
+Growth Funds
+
+The aim of growth funds is to provide capital appreciation over the medium to long term. Such schemes normally invest a majority of their corpus in equities. Growth schemes are ideal for investors who have a long-term outlook and are seeking growth over a period of time.
+
+Income Funds
+
+The aim of Income Funds is to provide regular and steady income to investors. Such schemes generally invest in fixed income securities such as bonds, corporate debentures and Government securities.
+
+Income Funds are ideal for capital stability and regular income. Capital appreciation in such funds may be limited, though risks are typically lower than that in a growth fund.
+
+Balanced Funds
+
+The aim of Balanced Funds is to provide both growth and regular income. Such schemes periodically distribute a part of their earning and invest both in equities and fixed income securities in the proportion indicated in their offer documents. This proportion affects the risks and the returns associated with the balanced fund - in case equities are allocated a higher proportion, investors would be exposed to risks similar to that of the equity market.
+
+Balanced funds with equal allocation to equities and fixed income securities are ideal for investors looking for a combination of income and moderate growth.
+
+Money Market Funds
+
+The aim of Money Market Funds is to provide easy liquidity, preservation of capital and moderate income. These schemes generally invest in safer short-term instruments such as Treasury Bills, Certificates of Deposit, Commercial Paper and Inter-Bank Call Money. Returns on these schemes may fluctuate depending upon the interest rates prevailing in the market.
+
+These are ideal for corporate and individual investors as a means to park their surplus funds for short periods.
+
+Other Equity Related Schemes
+
+Tax Saving Schemes
+
+These schemes offer tax rebates to investors under specific provisions of the Indian Income Tax laws, as the Government offers tax incentives for investments in specified avenues. Investors are advised to consult their financial advisors for more details.
+
+Index Schemes
+
+Index Funds attempt to replicate the performance of a particular index such as the BSE Sensex or the NSE S and P CNX 50.
+
+Sectoral Schemes
+
+Sectoral Funds are those which invest exclusively in specified sector(s) such as FMCG, Information Technology, Pharmaceuticals, etc. These schemes carry higher risk as compared to general equity schemes as the portfolio is less diversified, i.e. restricted to specific sector(s) / industry (ies)."
+
+    "What are the different options that mutual funds offer?
+
+To cater to different investment needs, Mutual Funds offer various investment plans. Some of the important investment plans include:
+
+Growth Option
+
+Dividend is not paid-out under a Growth Plan and the investor realises only the capital appreciation on the investment (by an increase in NAV).
+
+Dividend Payout Option
+
+Dividends are paid-out to investors under a Dividend Payout Option. However, the NAV of the mutual fund scheme falls to the extent of the dividend payout.
+
+Dividend Re-investment Plan
+
+Here the dividend accrued on mutual funds is automatically re-invested in purchasing additional units in open-ended funds. In most cases mutual funds offer the investor an option of collecting dividends or re-investing the same.
+
+Retirement Pension Plan
+
+Some schemes are linked with retirement pension. Individuals participate in these plans for themselves, and corporates participate for their employees.
+
+Insurance Plan
+
+Certain Funds offer some schemes that offer insurance cover to investors.
+
+Systematic Investment Plan (SIP)
+
+Here the investor is given the option of preparing a pre-determined number of post-dated cheques (or a direct debit of the bank account) in favour of the fund. The investor is allotted units on a pre-determined date specified in the Offer Document at the applicable NAV.
+
+Systematic Encashment Plan (SEP)
+
+As opposed to the Systematic Investment Plan, the Systematic Encashment Plan allows the investor the facility to withdraw a pre-determined amount / units from his fund at a pre-determined interval. The investor's units will be redeemed at the applicable NAV as on that day."
+
+    "
+    What is Net Asset Value (NAV)?
+
+    Net Asset Value is the market value of the assets of the scheme minus its liabilities. The per unit NAV is the net asset value of the scheme divided by the number of units outstanding on the Valuation Date.
+
+    Typically, NAV is calculated by summing the current market values of all securities held by the fund, adding in cash and any accrued income, then subtracting liabilities and dividing the result by the number of units outstanding."
+    </string>
+    <string name="title_activity_mutual_funds_faq">MUTUAL FUNDS FAQ</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
 </resources>

@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="FINSEC"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -18,8 +18,29 @@
         </activity>
         <activity
             android:name=".mainPage"
-            android:label="@string/title_activity_main_page"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="FINSEC- Financial Secretary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mutualFundsFaq"
+            android:label="@string/title_activity_mutual_funds_faq"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ItemListActivity"
+            android:label="@string/title_item_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".ItemListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.user.finsecapp.ItemListActivity" />
+        </activity>
+        <activity android:name=".FD_calculator" />
+        <activity android:name=".account" />
+        <activity android:name=".incomeExpenses" />
+        <activity android:name=".BankRates"></activity>
     </application>
 
 </manifest>

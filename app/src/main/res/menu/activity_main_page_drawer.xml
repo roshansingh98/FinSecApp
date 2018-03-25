@@ -7,40 +7,49 @@
     <group android:checkableBehavior="single">
 
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_accounts"
             android:icon="@drawable/ic_menu_camera"
             android:title="ACCOUNTS" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_transfers"
             android:icon="@drawable/ic_menu_gallery"
             android:title="TRANSFERS" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_income"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="INCOME" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_expenses"
             android:icon="@drawable/ic_menu_manage"
             android:title="EXPENSES" />
 
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_converter"
             android:icon="@drawable/ic_menu_manage"
-            android:title="CURRENCY CONVERTOR" />
+            android:title="CURRENCY CONVERTER" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_planning"
             android:icon="@drawable/ic_menu_manage"
             android:title="PLANNING" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_fd_calculator"
             android:icon="@drawable/ic_menu_manage"
-            android:title="INCOME TAX" />
+            android:title="FD CALCULATOR" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_mutual_funds_faq"
             android:icon="@drawable/ic_menu_manage"
-            android:title="LIVE TRENDS" />
+            android:title="MUTUAL FUNDS FAQ" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_invest_online"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="INVEST ONLINE" />
+        <item
+            android:id="@+id/nav_bank_rates"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="BANK RATES" />
+
+        <item
+            android:id="@+id/nav_about"
             android:icon="@drawable/ic_menu_manage"
             android:title="ABOUT" />
     </group>

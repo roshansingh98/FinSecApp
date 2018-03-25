@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CurrencyName">
+        <item>US Dollar</item>
+        <item>Euro</item>
+        <item>Ruble</item>
+        <item>Pound</item>
+        <item>Yuan</item>
+        <item>Indian Rupee</item>
+    </string-array>
+</resources>

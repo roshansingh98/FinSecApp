@@ -1,5 +1,6 @@
 package com.example.user.finsecapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -73,14 +74,29 @@ public class mainPage extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_accounts) {
+            Intent intent3=new Intent(getApplicationContext(),account.class);
+            startActivity(intent3);
+        } else if (id == R.id.nav_mutual_funds_faq) {
+            Intent intent=new Intent(getApplicationContext(),mutualFundsFaq.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_invest_online) {
+            Intent intent1=new Intent(getApplicationContext(),ItemListActivity.class);
+            startActivity(intent1);
+        } else if (id == R.id.nav_about) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id==R.id.nav_converter){
 
-        } else if (id == R.id.nav_manage) {
+        } else if(id==R.id.nav_bank_rates){
+            Intent intent5=new Intent(getApplicationContext(),BankRates.class);
+            startActivity(intent5);
 
+        }else if(id==R.id.nav_fd_calculator) {
+            Intent intent2=new Intent(getApplicationContext(),FD_calculator.class);
+            startActivity(intent2);
+        } else if (id==R.id.nav_income){
+            Intent intent4=new Intent(getApplicationContext(),incomeExpenses.class);
+            startActivity(intent4);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

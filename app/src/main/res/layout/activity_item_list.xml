@@ -4,12 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.finsecapp.mainPage">
+    android:fitsSystemWindows="true"
+    tools:context="com.example.user.finsecapp.ItemListActivity">
 
     <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -18,8 +28,8 @@
             android:background="@color/colorPrimaryDark"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-    </android.support.design.widget.AppBarLayout>
+        <include layout="@layout/item_list" />
+    </FrameLayout>
 
-    <include layout="@layout/content_main_page" />
 
 </android.support.design.widget.CoordinatorLayout>

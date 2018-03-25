@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounda"
+    tools:context="com.example.user.finsecapp.account">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="39dp"
+        android:foregroundTint="@android:color/background_dark"
+        android:text="Name:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:foregroundTint="@android:color/background_light"
+        android:inputType="textPersonName|number"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="62dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Balance:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignStart="@+id/editText"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="123dp"
+        android:text="Currency:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="ADD" />
+</RelativeLayout>
