@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/fino"
     android:padding="16dp"
-    tools:context="com.example.user.finsecapp.FD_calculator">
+    tools:context="com.example.user.finsecapp.rd_Calculator">
 
     <EditText
         android:id="@+id/editText3"
@@ -153,4 +153,5 @@
         android:text="Interest Earned"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
+
 </RelativeLayout>

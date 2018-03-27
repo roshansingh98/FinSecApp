@@ -8,19 +8,19 @@
 
         <item
             android:id="@+id/nav_accounts"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/folder"
             android:title="ACCOUNTS" />
         <item
             android:id="@+id/nav_transfers"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/briefcase"
             android:title="TRANSFERS" />
         <item
             android:id="@+id/nav_income"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/book"
             android:title="INCOME" />
         <item
             android:id="@+id/nav_expenses"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/book"
             android:title="EXPENSES" />
 
         <item
@@ -29,23 +29,31 @@
             android:title="CURRENCY CONVERTER" />
         <item
             android:id="@+id/nav_planning"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/calendarsmall"
             android:title="PLANNING" />
         <item
             android:id="@+id/nav_fd_calculator"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_launcher"
             android:title="FD CALCULATOR" />
         <item
+            android:id="@+id/nav_rd_calculator"
+             android:icon="@drawable/ic_launcher"
+            android:title="RD CALCULATOR"/>
+        <item
             android:id="@+id/nav_mutual_funds_faq"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/search"
             android:title="MUTUAL FUNDS FAQ" />
+        <item
+            android:id="@+id/nav_income_tax_faq"
+            android:icon="@drawable/search"
+            android:title="INCOME TAX FAQ" />
         <item
             android:id="@+id/nav_invest_online"
             android:icon="@drawable/ic_menu_manage"
             android:title="INVEST ONLINE" />
         <item
             android:id="@+id/nav_bank_rates"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/briefcase"
             android:title="BANK RATES" />
 
         <item

@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageButton;
 
 public class mainPage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -24,6 +25,36 @@ public class mainPage extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
+        ImageButton img1,img2,img3;
+        img1=(ImageButton)findViewById(R.id.imageButton4);
+        img2=(ImageButton)findViewById(R.id.imageButton2);
+        img3=(ImageButton)findViewById(R.id.imageButton3);
+        img1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(getApplicationContext(),news2.class);
+                startActivity(i);
+            }
+
+        });
+
+        img2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(getApplicationContext(),financialtrends.class);
+                startActivity(i);
+            }
+
+        });
+        img3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(getApplicationContext(),news1.class);
+                startActivity(i);
+            }
+
+        });
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -42,7 +73,7 @@ public class mainPage extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            //super.onBackPressed();
         }
     }
 
@@ -62,6 +93,8 @@ public class mainPage extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            finish();
+            System.exit(0);
             return true;
         }
 
@@ -97,6 +130,15 @@ public class mainPage extends AppCompatActivity
         } else if (id==R.id.nav_income){
             Intent intent4=new Intent(getApplicationContext(),incomeExpenses.class);
             startActivity(intent4);
+        } else if (id==R.id.nav_expenses){
+            Intent intent6=new Intent(getApplicationContext(),expenses.class);
+            startActivity(intent6);
+        }else if (id==R.id.nav_rd_calculator){
+            Intent intent7=new Intent(getApplicationContext(),rd_Calculator.class);
+            startActivity(intent7);
+        } else if (id==R.id.nav_income_tax_faq){
+            Intent intent8=new Intent(getApplicationContext(),income_tax_faq.class);
+            startActivity(intent8);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -21,6 +21,7 @@ public class welcome_Page extends AppCompatActivity {
             public void onFinish(){
                 Intent intent=new Intent(getApplicationContext(),mainPage.class);
                 startActivity(intent);
+                finish();
             }
 
         }.start();

@@ -4,19 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/a3"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.user.finsecapp.mainPage"
     tools:showIn="@layout/app_bar_main_page">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="596dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@color/cyan1"
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/stock"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/a2" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/abc" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/a1" />
 </android.support.constraint.ConstraintLayout>

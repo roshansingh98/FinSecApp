@@ -7,6 +7,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class account extends AppCompatActivity {
 
@@ -18,8 +19,8 @@ public class account extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_account);
-        add = (Button) findViewById(R.id.button);
-        cur = (Spinner) findViewById(R.id.spinner);
+        add = findViewById(R.id.button);
+        cur = findViewById(R.id.spinner);
         //cur.setOnItemSelectedListener(this,0);
         ArrayAdapter<CharSequence> ad = ArrayAdapter.createFromResource(this, R.array.CurrencyName, android.R.layout.simple_spinner_item);
         ad.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -29,11 +30,18 @@ public class account extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 currency = adapterView.getItemAtPosition(i).toString();
+
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
 
+            }
+        });
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(account.this, "Your Account Has Been Added", Toast.LENGTH_LONG).show();
             }
         });
     }

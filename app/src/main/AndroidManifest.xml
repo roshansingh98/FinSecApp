@@ -24,9 +24,19 @@
             android:name=".mutualFundsFaq"
             android:label="@string/title_activity_mutual_funds_faq"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FD_calculator" />
+        <activity android:name=".account" />
+        <activity android:name=".incomeExpenses" />
+        <activity android:name=".BankRates" />
+        <activity android:name=".rd_Calculator" />
+        <activity android:name=".expenses" />
+        <activity
+            android:name=".income_tax_faq"
+            android:label="@string/title_activity_income_tax_faq"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ItemListActivity"
-            android:label="@string/title_item_list"
+            android:label="BANKS"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ItemDetailActivity"
@@ -37,10 +47,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.user.finsecapp.ItemListActivity" />
         </activity>
-        <activity android:name=".FD_calculator" />
-        <activity android:name=".account" />
-        <activity android:name=".incomeExpenses" />
-        <activity android:name=".BankRates"></activity>
+        <activity
+            android:name=".news1"
+            android:label="@string/title_activity_news1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".news2"
+            android:label="@string/title_activity_news2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".financialtrends"
+            android:label="@string/title_activity_financialtrends"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

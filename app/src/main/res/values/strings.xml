@@ -9,25 +9,25 @@
     <string name="action_logout">Log Out</string>
     <string name="title_activity_mutual_fund_faq">MUTUAL FUND FAQ</string>
     <string name="large_text">
-        "What is a Mutual Fund?\n\n"
+        <b>"What is a Mutual Fund?\n\n"</b>
 
         "A Mutual Fund is a trust that pools the savings of a number of investors who share a common financial goal."
         "It is essentially a diversified portfolio of financial instruments - these could be equities, debentures / bonds or money market instruments. The corpus of the fund is then deployed in investment alternatives that help to meet predefined investment objectives. The income earned through these investments and the capital appreciation realised are shared by its unit holders in proportion to the number of units owned by them. Thus a Mutual Fund is a suitable investment for the common man as it offers an opportunity to invest in a diversified, professionally managed basket of securities at a relatively low cost."
         "What are the benefits of investing in a mutual fund?
 
-The benefits of investing in mutual funds are as follows -
+        The benefits of investing in mutual funds are as follows -
 
-Access to professional money managers - Your money is managed by experienced fund managers using advanced scientific and mathematical techniques.
+        Access to professional money managers - Your money is managed by experienced fund managers using advanced scientific and mathematical techniques.
 
-Diversification -Mutual funds aim to reduce the volatility of returns through diversification by investing in a number of companies across a broad section of industries and sectors. It prevents an investor from putting "all eggs in one basket". This inherently minimizes risk. Thus with a small investible surplus an investor can achieve diversification that would have otherwise not been possible.
+        Diversification -Mutual funds aim to reduce the volatility of returns through diversification by investing in a number of companies across a broad section of industries and sectors. It prevents an investor from putting "all eggs in one basket". This inherently minimizes risk. Thus with a small investible surplus an investor can achieve diversification that would have otherwise not been possible.
 
-Liquidity - Open-ended mutual funds are priced daily and are always willing to buy back units from investors. This mean that investors can sell their holdings in mutual fund investments anytime without worrying about finding a buyer at the right price. In the case of other investment avenues such as stocks and bonds, buyers are not necessarily available and therefore these investment avenues are less liquid compared to open-ended schemes of mutual funds.
+        Liquidity - Open-ended mutual funds are priced daily and are always willing to buy back units from investors. This mean that investors can sell their holdings in mutual fund investments anytime without worrying about finding a buyer at the right price. In the case of other investment avenues such as stocks and bonds, buyers are not necessarily available and therefore these investment avenues are less liquid compared to open-ended schemes of mutual funds.
 
-Tax Efficiency*
+        Tax Efficiency*
 
-Equity Funds
+        Equity Funds
 
-Currently, dividends are tax-free in the hands of the investor. There is no distribution tax payable by a Mutual Fund on dividends distributed. There is no tax deduction at source on dividends as well. Investments for over 12 months qualify for long-term capital gains, which are currently, exempt from tax. Moreover for investors there is no TDS on redemption of the units in case they are “resident” under the Indian Income Tax Act, 1961(“the Act”). Securities Transaction Tax is applicable on redemption of equity fund investments.
+        Currently, dividends are tax-free in the hands of the investor. There is no distribution tax payable by a Mutual Fund on dividends distributed. There is no tax deduction at source on dividends as well. Investments for over 12 months qualify for long-term capital gains, which are currently, exempt from tax. Moreover for investors there is no TDS on redemption of the units in case they are “resident” under the Indian Income Tax Act, 1961(“the Act”). Securities Transaction Tax is applicable on redemption of equity fund investments.
 
 Debt Funds
 
@@ -132,9 +132,278 @@ As opposed to the Systematic Investment Plan, the Systematic Encashment Plan all
 
     Net Asset Value is the market value of the assets of the scheme minus its liabilities. The per unit NAV is the net asset value of the scheme divided by the number of units outstanding on the Valuation Date.
 
-    Typically, NAV is calculated by summing the current market values of all securities held by the fund, adding in cash and any accrued income, then subtracting liabilities and dividing the result by the number of units outstanding."
+    Typically, NAV is calculated by summing the current market values of all securities held by the fund, adding in cash and any accrued income, then subtracting liabilities and dividing the result by the number of units outstanding.\n"
     </string>
     <string name="title_activity_mutual_funds_faq">MUTUAL FUNDS FAQ</string>
     <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_banks">Bank Rates</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_income_tax_faq">INCOME TAX FAQ</string>
+    <string name="large_text_1">"What is Income Tax?
+It is a tax imposed by the Government of India on any body who earns income in India. This tax is levied on the strength of an Act called Income tax Act which was passed by the Parliament of India.
+
+What do you mean by income earned in India ?
+Income earned in India  is not limited to income earned within the geographical limits or boundaries of the country. Certain incomes are also deemed to have been earned in India although they may have been earned outside the country.
+
+Who administers the Income-Tax Act?
+The job of monitoring the Income-tax collection by the government is entrusted to a Department called Income-Tax. This department functions under the .Department of Revenue, Ministry of Finance, Government of India..
+
+What is the period for which a person.s income is taken into account for purpose of Income tax?
+Income earned in the twelve months contained in the period from 1st April to 31st March (commonly called Financial Year [FY]) is taken into account for purposes of calculating Income Tax. Under the income tax Act this period is called a .Previous year..
+
+What is an .Assessment Year.?
+It is the twelve-month period 1st April to 31st March immediately following the previous year [refer answer-4]. In the Assessment year a person files his return for the income earned in the previous year. For example for FY:2006-07 the AY is 2007-08.
+
+Who is supposed to pay Income Tax?
+Any Individual or group of Individual or artificial bodies who/which have earned income during the previous years are required to pay Income tax on it. The IT Act recognizes the earners of income under seven [7] categories. Each category is called a Status . These are Individuals, Hindu Undivided Family [HUF], Association of Persons [AOP], Body of individuals [BOI], Firms, Companies, Local authority, Artificial juridical person.
+
+When Companies pay taxes under the Income tax Act it is called .Corporate tax..
+
+7.      Is Income tax Act applicable only to residents?
+
+No, The Income tax Act applies to all persons who earn income in India. Whether they are resident or non-resident.
+
+8.      Who is a resident?
+
+If an individual stays in India for 182 days or more in a year, he is treated as resident in that year regardless of his citizenship. If the stay is less than 182 days he is a non-resident.
+
+9.      How can I know whether a company is resident or non-resident?
+
+A company is considered as .resident. if it is incorporated under the Indian Companies Act. A foreign company can also become a resident  if the control and management of its affairs is done entirely in India during the previous year.
+
+10.  How is resident/ non-resident status relevant for levy of income tax?
+
+In case of resident individuals and companies, their global income is taxable in India. However non-residents have to pay tax only on the income earned in India or from a source/activity in India.
+
+I am an Indian scientist, who had gone abroad on a government project. Should my return of income include income earned/received abroad?
+It depends on your residential status. If you are a resident all incomes earned globally are taxable. Therefore the same needs to be included in the return. However if any tax is paid on that income in the foreign country, you will get credit for the same.
+
+
+
+B. Taxable Income
+
+What does the Income Tax Department consider as income?
+The word .Income. has a very broad and inclusive meaning. In case of a salaried person, all that is received from an employer in cash, kind or as a facility is considered as income. For a businessman, his net profits will constitute income. Income may also flow from investments in the form of Interest, Dividend, and Commission etc. Infect the Income Tax Act does not differentiate between legal and illegal income for purpose of taxation. Under the Act, all incomes earned by persons are classified into 5 different heads, such as:
+
+Income from Salary
+Income from House property
+Income from Business or Profession
+Income from capital gains
+Income from other sources
+Are all receipts considered as income?
+No.
+
+Receipts can be classified into two kinds. A) Revenue receipt B) Capital receipt.
+
+The general rule under the Income tax Act is that, all revenue receipt are taxable unless a receipt is specifically exempted and all capital receipts are exempt from taxation unless there is a provision to tax it. Gifts and loans etc are in the nature of capital receipts not attracting tax.
+
+What are revenue and capital receipts?
+In a simple language, all that one derives from a source is called revenue receipt. For ex. Salary from employment, Rent from property, Interest or Divided from Investments, Profits from business. When an income is earned on account of transacting the source itself, it is called Capital receipt. For ex. Sale of land and building, business, investment etc.
+
+Is income tax levied on gifts received by a person?
+Gift exceeding Rs 25,000 is taxable unless it is received from
+
+(i)  any person who is a relative or
+
+(ii)        on occasion of marriage or
+
+(iii)        under will or by inheritance or
+
+in contemplation of death of the payer
+
+16.  I own shares of various Indian companies and receive dividends. Is it taxable?
+
+No. The dividend declared by Indian companies is not taxable in the hands of the share holders because tax on distributed profits have already been borne by the company.
+
+17.  I am a religious preacher and earn money from preaching. Do I have to pay tax and file return?
+
+Yes.
+
+Can I claim deduction for my personal and household expenditure in calculating my income or profit?
+No.
+
+19.  Most of my income is given away in charity and I am left with just enough to meet my personal requirement. What will be considered as my income?
+
+What is done after the income is earned does not determine its taxation. However charitable contribution to approved institutions will give you the benefit of certain deductions from taxable income.
+
+20.  My daughter stays in USA. She owns a house in India and has let it out. She has asked tenants to pay rent to me so that I can a lead decent life. She has not received any rent. Is she still liable to tax? What if she transfers the house to me?
+
+Your daughter is the owner of the house and therefore she is liable to pay tax even though you receive the rent. If the house is transferred, then you would become the owner and you will have to pay tax on the rental income.
+
+21.  My children living abroad send me Rs.20000/- per month for my maintenance. Would this be considered as my income?
+
+No.
+
+Is there any limit of income below which I need not pay taxes?
+At the moment individual, HUF, AOP, and BOI having income below rupees one lakh need not pay any income tax. For other categories [persons] such as co-operatives societies, firms, companies and local authorities no such exempted limits exists, so they have to pay taxes on their entire income. In cases of senior citizens aged above 65 years and women the exempted limit for the financial year 2007-08 are rupees one lakh ninety thousand and one lakh forty thousand respectively.
+
+I am an agriculturist. Is my income taxable?
+Your agricultural income is not taxable per se. However, if you have any other source of income like income from investments, property etc, while calculating tax on them, your agricultural income will be taken into account, so that you pay tax at a higher rate on that other income.
+
+24.  What is agricultural income?
+
+To consider an activity as agriculture  the basic operation such as tilling, sowing, irrigating and harvesting should have been carried out. Thereafter what is sold in the market should be the primary product harvested. Receipt from such sale is considered as agricultural receipt. If however some further processing or modification were done to the harvested product to enhance its marketable value then such enhanced value would be considered as business income.
+
+Is income from animal husbandry considered as agricultural income?
+No.
+
+Do I have to maintain any records or proof of earnings?
+For every source of income you have to maintain proof of earning and the records specified under the IT Act. In case, no such records have been laid down, you should maintain reasonable level of records with which you can support the claim of income.
+
+As an agriculturist, am I required to maintain any proof of earning and expenditure incurred?
+Even if you have only agricultural income you are advised to maintain some proof of your agricultural earnings.
+
+I win a lottery or prize money in a competition. Am I required to pay taxes on it?
+Yes.
+
+C. Tax on Income
+How does the Government collect Income Tax?
+Taxes are collected by three means: a) voluntary payment by persons into various designated Banks. For example Advance Tax and Self Assessment Tax b) Taxes deducted at source [TDS] on your behalf from the payments receivable by you. c) Taxes collected at source [TCS] on your behalf at the time of spending. It is the constitutional obligation of every person earning income to compute his income and pay taxes correctly.
+
+How will I know how much Income tax I have to pay?
+The rates of income tax and corporate taxes are available in the Finance bill [commonly called budget] passed by Parliament every year.
+
+Does every person have to keenly follow the annual Finance bills?
+You need not do so. You can take professional help or the help of Public Relation Officer [PRO] in the local Income Tax Department office. You may also take assistance from Tax Return Preparers [TRP]\n"</string>
+    <string name="abc3">
+        "Who created it?
+A pseudonymous software developer going by the name of Satoshi Nakamoto proposed bitcoin in 2008, as an electronic payment system based on mathematical proof. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way.
+To this day, no-one knows who Satoshi Nakamoto really is.
+In what ways is it different from traditional currencies?
+Bitcoin can be used to pay for things electronically, if both parties are willing. In that sense, it's like conventional dollars, euros, or yen, which are also traded digitally.
+But it differs from fiat digital currencies in several important ways:
+1 - Decentralization
+Bitcoin's most important characteristic is that it is decentralized. No single institution controls the bitcoin network. It is maintained by a group of volunteer coders, and run by an open network of dedicated computers spread around the world. This attracts individuals and groups that are uncomfortable with the control that banks or government institutions have over their money.
+Bitcoin solves the "double spending problem" of electronic currencies (in which digital assets can easily be copied and re-used) through an ingenious combination of cryptography and economic incentives. In electronic fiat currencies, this function is fulfilled by banks, which gives them control over the traditional system. With bitcoin, the integrity of the transactions is maintained by a distributed and open network, owned by no-one.
+2 - Limited supply
+Fiat currencies (dollars, euros, yen, etc.) have an unlimited supply - central banks can issue as many as they want, and can attempt to manipulate a currency's value relative to others. Holders of the currency (and especially citizens with little alternative) bear the cost.
+With bitcoin, on the other hand, the supply is tightly controlled by the underlying algorithm. A small number of new bitcoins trickle out every hour, and will continue to do so at a diminishing rate until a maximum of 21 million has been reached. This makes bitcoin more attractive as an asset - in theory, if demand grows and the supply remains the same, the value will increase.
+3 - Pseudonymity
+While senders of traditional electronic payments are usually identified (for verification purposes, and to comply with anti-money laundering and other legislation), users of bitcoin in theory operate in semi-anonymity. Since there is no central "validator," users do not need to identify themselves when sending bitcoin to another user. When a transaction request is submitted, the protocol checks all previous transactions to confirm that the sender has the necessary bitcoin as well as the authority to send them. The system does not need to know his or her identity.
+In practice, each user is identified by the address of his or her wallet. Transactions can, with some effort, be tracked this way. Also, law enforcement has developed methods to identify users if necessary.
+Furthermore, most exchanges are required by law to perform identity checks on their customers before they are allowed to buy or sell bitcoin, facilitating another way that bitcoin usage can be tracked. Since the network is transparent, the progress of a particular transaction is visible to all.
+This makes bitcoin not an ideal currency for criminals, terrorists or money-launderers.
+4 - Immutability
+Bitcoin transactions cannot be reversed, unlike electronic fiat transactions.
+This is because there is no central "adjudicator" that can say "ok, return the money." If a transaction is recorded on the network, and if more than an hour has passed, it is impossible to modify.
+While this may disquiet some, it does mean that any transaction on the bitcoin network cannot be tampered with.
+5 - Divisibility
+The smallest unit of a bitcoin is called a satoshi. It is one hundred millionth of a bitcoin (0.00000001) - at today's prices, about one hundredth of a cent. This could conceivably enable microtransactions that traditional electronic money cannot."
+    </string>
+    <string name="action_settings2">Settings</string>
+    <string name="title_activity_financialtrends">TOP TRENDS</string>
+
+    <string name="abc2">
+        "No. 1 Paytm Thrives on Demonetization
+
+
+Perhaps no entity benefitted more from the Indian government’s demonetization policy than Paytm. The company, which counts Ant Financial and Softbank among its backers, doubled its wallet user base in a year from 140 million in October 2016 to 270 million in November 2017. Paytm is accepted by a growing number of small merchants thanks to the government’s relentless push to get consumers off its cash-focused economy. Paytm also recently launched their mobile-first payments bank, hoping to build off of their mobile wallet user base. The company has set a target to reach 500 million saving accounts by 2020. Currently there are four payments banks in India – Paytm Payment Bank, Airtel Payment Bank, India Post Payments Bank and FINO Payment Bank. These entities can take deposits and process payments, but cannot issue loans. Observers think they’ll remain competitive by offering higher interest rates.
+
+No. 2 AI-Powered Chatbots Come to Banking
+
+Although India has been a bit of late bloomer in the adoption of some technologies, the country was quick to embrace chatbots, thanks to a large mobile- and messaging-friendly customer base. And the banking, financial service and insurance (BFSI) sector in India leads the usage of artificial intelligence (AI)-powered chatbots. Since its launch in March , HDFC Bank’s AI chatbot “Eva” has answered some 2.7 million customer queries from more than over 530,000 users. Other banks, like the State Bank of India and ICICI Bank, have also set up chatbots to handle a range of customer queries, such as guiding them through product details, transferring funds and integrating with website search functions. Companies like these services because they lower operating costs and keep customers satisfied. According to a Kantar TNS’s study, 36% of Indians say they are happy to interact with chatbots online.
+
+No. 3. UPI Growth
+
+The Unified Payments Interface (UPI), a mobile-based payment system that allows instant transfer of funds between two banks, continues to grow in popularity. Consumer adoption continues apace, while some leading technology players like Google and Paypal now rely on the system for their payment services. In November, the number of UPI-backed transactions grew 38% month-over-month, hitting 105 million transactions, according to the National Payments Corporation of India (NPCI) that runs UPI. According to the report, the value of transactions reached $1.44 billion in November, up from $1.05 billion in October. In August, Google’s digital payments platform Tez reported the highest number of UPI-based transactions, followed by payment service competitors PhonePe and the BHIM app.
+
+No. 4 Biometric Authentication
+
+Biometrics are reshaping India’s national identity policies, and will have a far-ranging effect in the years to come. The government has rolled out Aadhaar, a 12-digit unique identity number issued to all Indian residents linked to their fingerprints, iris scans and certain demographic details. The Reserve Bank of India, the country’s central bank, has required that all commercial banks, urban and state cooperative banks, payment banks, ATM operations and authorized card payment networks migrate to an Aadhaar-based biometric authentication method for electronic payment transactions by March 2018. The government claims Aadhaar is needed to fight welfare corruption and improve security as the country increasingly shifts to cashless transactions.
+
+No. 5 ATMs shut down
+
+The total number of ATMs in India was reduced by 1,684 between June and October of 2017, according to the Reserve Bank of India (RBI). Despite the seemingly marginal shrinkage of 7%, this reflects an important shift as ATMs increased at a compounded rate of 16.4% over the past four years according to The Times of India. The shutting down of ATMs is largely driven by operational costs and the migration of urban consumers switching to digital transactions and internet banking after the demonetization was enacted."
+    </string>
+    <string name="action_settings1">Settings</string>
+    <string name="title_activity_news2">BUDGET</string>
+    <string name="abc1">
+        "The Union Budget for 2018-19 has been announced by Mr Arun Jaitley, Union Minister for Finance, Government of India, in Parliament on February 1, 2018. It focuses on uplifting the rural economy and strengthening of the agriculture sector, healthcare for the economically less privileged, infrastructure creation and improvement in the quality of education of the country.
+Highlights of Union Budget 2018-19
+Overview of the economy
+The GDP grew at 6.3 per cent in the second quarter of 2017-18 and is expected to grow at 7.2-7.5 per cent in the second half of 2017-18.
+Growth for 2018-19 is forecasted at 7.4 per cent by the International Monetary Fund (IMF).
+Exports are expected to grow at 15 per cent in 2017-18.
+Fiscal deficit target for 2018-19 is set at 3.3 per cent of the GDP.
+Fiscal deficit for 2017-18 is revised to Rs 5.95 lakh crore (US$ 93.54 billion) at 3.5 per cent of the GDP.
+Agriculture and Rural Economy
+The government is committed towards doubling the farmers’ income by 2022.
+A total of Rs 14.34 lakh crore (US$ 225.43 billion) will be spent for creation of livelihood and infrastructure in rural areas.
+Minimum Support Price (MSP) for all announced kharif crops will be at least one and half times of their production cost, similar to the majority of rabi crops.
+Institutional credit to the agriculture sector is targeted at Rs 11 lakh crore (US$ 172.93 billion) for 2018-19, compared to Rs 10 lakh crore (US$ 157.2 billion) for 2017-18.
+A Fisheries and Aqua culture Infrastructure Development Fund (FAIDF) and an animal Husbandry Infrastructure Development Fund (AHIDF) will be started with a total corpus of Rs 10,000 crore (US$ 1.57 billion).
+An Agri-Market Infrastructure Fund will be started with a corpus of Rs 2,000 crore (US$ 314.41 million).
+A restructured National Bamboo Mission will be launched with a total outlay of Rs 1,290 crore (US$ 202.79 million).
+Allocation for the National Rural Livelihood Mission is increased to Rs 5,750 crore (US$ 903.93 million) for 2018-19.
+Health, Education and Social Protection
+Budgeted expenditure on health, education and social protection for 2018-19 is Rs 1.38 lakh crore (US$ 21.69 billion) which is expected to increase by Rs 15,000 crore (US$ 2.36 billion) after additional allocations during the year.
+Role of technology in the education sector will be increased with a focus on increased digital intensity.
+A new initiative named ‘Revitalising Infrastructure and Systems in Education (RISE) by 2022’ will be launched with an investment of Rs 1 lakh crore (US$ 15.72 billion) over the next four years.
+A total of Rs 1,200 crore (US$ 188.65 million) is allocated for Health and Wellness Centres under the National Health Policy.
+National Health Protection Scheme will be launched, which will cover over 10 million poor families with a coverage of up to Rs 5 lakh (US$ 7,860). This will be the world’s largest government funded health care programme.
+A total of 24 new government medical colleges and hospitals will be set up.
+Medium, Small and Micro Enterprises (MSMEs)
+A total of Rs 3,790 crore (US$ 596.43 million) has been provided for the MSME sector for credit support, capital and interest subsidy and innovations.
+Formalisation in the MSME sector is happening at a fast pace after the introduction of the Goods and Services Tax (GST) and demonetisation.
+Online loan sanctioning facility for MSMEs will be revamped and public sector banks and corporates will be brought on-board the Trade Electronic Receivable Discounting System (TReDS) platform which will be linked with the GSTN.
+Lending under the MUDRA Yojana is targeted at Rs 3 lakh crore (US$ 47.16 billion). At present 76 per cent of loan accounts under the scheme belong to women while more than 50 per cent belong to SCs, STs and OBCs.
+Additional measures will be taken by the government for growth and successful operation of alternative investment funds.
+Employment Generation
+As per an independent study conducted, over 7 million formal jobs will be created in the country during 2018-19.
+The Government of India will contribute 12 per cent of the wages of the new employees in the Employees’ Provident Fund for all the sectors in the next three years.
+As per proposed amendments in the Employees Provident Fund and Miscellaneous Provisions Act, 1952, women employees’ contribution to the EPF will be reduced to 8 per cent for the first three years of their employment with no change in employers’ contribution. This is done to promote more women employment in the formal sector.
+A model aspirational skill centre is being set up in every district of the country.
+Infrastructure and Financial Sector Development
+Investments in excess of Rs 50 lakh crore (US$ 786.02 billion) are required in the country’s infrastructure to increase the growth of GDP and connect and integrate country’s transport network.
+Budgetary allocation for infrastructure is set at Rs 5.97 lakh crore (US$ 93.85 billion) for 2018-19.
+All-time high allocations have been made to the rail and road sectors.
+Through the use of online monitoring system of PRAGATI, projects worth Rs 9.46 lakh crore (US$ 148.72 billion) have been facilitated and fast tracked.
+Under the Smart Cities Mission, projects worth Rs 2,350 crore (369.43 million) have been completed and projects worth 20,852 crore (US$ 3.82 billion) are under progress. A total of 99 cities have been selected under the mission with an outlay of Rs 2.04 lakh crore (US$ 32.07 billion).
+To promote tourism in the country, 10 prominent tourist sites will be developed into iconic tourism destinations
+Around 35,000 km of road construction has been approved under the Phase-1 of the Bharatmala Pariyojana at an estimated cost of Rs 5.35 lakh crore (US$ 84.10 billion).
+Railways
+Capital expenditure in the railways sector for 2018-19 is set at Rs 148,528 crore (US$ 23.35 billion).
+12000 wagons, 5160 coaches and around 700 locomotives will be procured during 2018-19.
+Redevelopment of 600 major railway stations will be taken up.
+Electrification of around 4,000 km of railway tracks is expected to be commissioned in 2017-18.
+Work on eastern and western dedicated freight corridors is under progress.
+A dedicated institute to train manpower required for work on high speed rail projects will be established in Vadodara.
+Digital Economy
+Budgetary allocation of Rs 3,073 crore (US$ 483.09 million) for the Digital India programme is made for 2018-19.
+A national program will be initiated by NITI Aayog to increase efforts in the area of artificial intelligence.
+Mission on Cyber Physical Systems will be launched by the Department of Science and Technology under which centres of excellence for research, training and skilling robotics, artificial intelligence, digital manufacturing, big data analysis, quantum communication and internet of things will be established and promoted.
+Budgetary allocation of Rs 10,000 crore (US$ 1.57 billion) is made in 2018-19 for telecom infrastructure.
+500,000 Wi-Fi hotspots will be set up by government to provide internet connectivity to over 5 million rural citizens.
+Every individual enterprise in India will be assigned a unique ID.
+Disinvestment
+A target of Rs 80,000 crore (US$ 12.58 billion) for disinvestment has been set for 2018-19.
+Target of 2017-18 has been exceeded and receipts have crossed Rs 1 lakh crore (US$ 15.72 billion).
+National Insurance Co. Ltd., United India Assurance Co. Ltd., and Oriental India insurance Co. Ltd., will be merged into a single insurance entity.
+A comprehensive Gold Policy will be framed in order to develop gold as an asset class.
+A system for regulated gold exchanges across the country will be established.
+Fiscal Management
+Total budgeted expenditure for 2018-19 is set at Rs 2,442,213 crore (US$ 383.93 billion).
+Central Government’s debt to GDP ratio will be brought down to 40 per cent, as per the recommendations of the Fiscal Reform and Budget Management Committee.
+Growth in direct taxes for 2017-18 (up to January 15, 2018) has been 18.7 per cent while for 2016-17 it was 12.6 per cent.
+Number of effective tax payers increased to 80.27 million by 2016-17 end from 60.47 million in 2015-16 end.
+Companies registered as Farmer Producer Companies with an annual turnover up to Rs 100 crore (US$ 15.72 million) will get 100 per cent deduction for a period of five year starting 2018-19. The move is proposed in order to promote ‘Operation Greens’ and ‘Sampada Yoajana’.
+Reduced tax rate of 25 per cent will be extended to companies which have reported a turnover of up to Rs 250 crore (US$ 39.30 million) during 2016-17. This move is expected to benefit all the MSMEs operational in the country.
+Revenue loss from the reduction in the tax rate during 2018-19 is estimated at Rs 7,000 crore (US$ 1.1 billion).
+A standard deduction of Rs 40,000 crore (US$ US4 628.9) is proposed for salaried individuals which will replace the present exemption of transport allowance and reimbursement of miscellaneous medical expenses. The move will help middle class employees in reducing their tax liabilities. Revenue loss from the move is estimated at Rs 8,000 crore (US$ 1.41 billion).
+Exempted interest income on deposits with banks and post offices is proposed to be increased from the present Rs 10,000 (US$ 157.2) to Rs 50,000 (US$ 786.02).
+Deduction limit for health insurance premium and/ or medical expenditure is proposed to be increased from the present Rs 30,000 (US$ 471.6) to Rs 50,000 (US$ 786.02).
+Pradhan Mantri Vaya Vandana Yojana will be extended till 2020.
+More concessions will be provided for the International Financial Services Centre (IFSC).
+Payments in excess of Rs 10,000 (US$ 157.2) by trusts and institutions shall be disallowed and will be taxable. In case of non-deduction of tax by such entities, 30 per cent of the amount will be disallowed and taxed.
+Long Term Capital Gains (LTCG) after January 31, 2018, exceeding Rs 1 lakh (US$ 1,572.04) will be taxed at 10 per cent without any indexation benefit.
+A 10 per cent tax is proposed on distributed income by equity oriented mutual funds.
+The proposed change in capital gains tax is expected to result in revenue gain of around Rs 20,000 crore (US$ 3.14 billion).
+Cess on personal income tax and corporation tax is proposed to be increased from 3 per cent to 4 per cent. The new cess will be called ‘Health and Education Cess’. The move is expected to result in additional tax revenue of Rs 11,000 crore (US$ 1.73 billion).
+Rollout of e-assessment across the country is proposed for greater efficiency and transparency in direct tax collection.
+Customs duty on mobile phones will be increased from 15 percent to 20 percent and 15 percent on certain parts of televisions.
+Education Cess and Secondary and Higher Education Cess on imported goods will be abolished and will be replaced by a Social Welfare Surcharge at the rate of 10 percent of the aggregate duties of customs.
+The name of the Central Board of Excise and Customs (CBEC) to the Central Board of Indirect Taxes and Customs (CBIC)."
+    </string>
+    <string name="title_activity_news1">BITCOIN</string>
 </resources>

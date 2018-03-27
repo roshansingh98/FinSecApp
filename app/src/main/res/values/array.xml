@@ -8,4 +8,8 @@
         <item>Yuan</item>
         <item>Indian Rupee</item>
     </string-array>
+    <string-array name="accountName">
+        <item>Savings</item>
+        <item>Current</item>
+    </string-array>
 </resources>

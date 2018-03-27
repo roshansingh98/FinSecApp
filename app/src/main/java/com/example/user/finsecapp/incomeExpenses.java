@@ -4,10 +4,15 @@ import android.app.DatePickerDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.util.Calendar;
 
@@ -15,6 +20,8 @@ public class incomeExpenses extends AppCompatActivity {
 
     ImageView dat,calc;
     EditText date;
+    Spinner accname;
+    Button inc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +44,28 @@ public class incomeExpenses extends AppCompatActivity {
                 dpd.show();
             }
         });
+        accname=(Spinner)findViewById(R.id.spinner3);
+        ArrayAdapter<CharSequence> adp=ArrayAdapter.createFromResource(this,R.array.accountName,android.R.layout.simple_spinner_item);
+        adp.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        accname.setAdapter(adp);
+        accname.setSelection(0,false);
+        accname.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+        inc=(Button)findViewById(R.id.button2);
+        inc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(incomeExpenses.this, "Amount has been added to your account", Toast.LENGTH_LONG).show();
+            }
+        });
     }
 }
