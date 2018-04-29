@@ -26,10 +26,10 @@ public class mainPage extends AppCompatActivity
         setSupportActionBar(toolbar);
 
 
-        ImageButton img1,img2,img3;
-        img1=(ImageButton)findViewById(R.id.imageButton4);
-        img2=(ImageButton)findViewById(R.id.imageButton2);
-        img3=(ImageButton)findViewById(R.id.imageButton3);
+        android.widget.Button img1,img2,img3;
+        img1=findViewById(R.id.imageButton3);
+        img2=findViewById(R.id.imageButton4);
+        img3=findViewById(R.id.imageButton2);
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -119,6 +119,7 @@ public class mainPage extends AppCompatActivity
         } else if (id == R.id.nav_about) {
 
         } else if (id==R.id.nav_converter){
+
 
         } else if(id==R.id.nav_bank_rates){
             Intent intent5=new Intent(getApplicationContext(),BankRates.class);
